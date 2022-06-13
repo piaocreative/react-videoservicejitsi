@@ -1,0 +1,48 @@
+.dashboad_thumb
+{
+    background-image: url('../assets/homeback.png');
+    background-position:center center;
+    background-size: cover;
+    height:240px;
+}
+
+.meetitem
+{
+    background-color: #F4F4F4;
+    border-radius: 6px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding:10px 15px; 
+    min-width: 360px;
+    width: Calc(33% - 40px);
+}
+
+
+.meetitem .title
+{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.meetitem .info
+{
+    font-size: 14px;
+    line-height: 19px;
+    color: #666;
+}
+
+.meetitem .meeticon
+{
+    margin-right: 20px;
+    font-size: 20px;
+    color:#CCC
+}
+
+.viewbtn
+{
+    margin: auto;
+    width: 30%;
+    color: #00314F;
+    font-size: 20px;
+}

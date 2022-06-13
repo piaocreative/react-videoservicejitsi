@@ -1,0 +1,247 @@
+.home
+{
+    background-image: url('./assets/homeback.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: Calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+}
+
+h1
+{
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 60px;
+    color: white;
+}
+
+h4
+{
+    font-size: 24px;
+    line-height: 33px;
+    color: #00314F;
+    font-weight: bold;
+}
+
+p
+{
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+}
+
+.checkboxtitle
+{
+    color: white;
+    margin-left: 5px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.primarybtn
+{
+    background-color:#2CDDE9;
+    border-radius:100px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 7px 30px;
+}
+
+.defaultbtn
+{
+    background-color:white;
+    border-radius:100px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 7px 30px;
+}
+
+.input
+{
+    width:100%;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 5px 10px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    background: transparent !important;
+    -webkit-appearance: none;
+}
+
+.input:focus{
+    background:transparent;
+    border: none;
+    border-bottom: 1px solid #2CDDE9;
+    color: white;
+}
+
+
+.input::placeholder
+{
+    color: white;
+    text-align:center
+}
+
+.sidebar
+{
+    width:240px;
+    min-height: Calc(100vh - 180px);
+    background-color: #F4F4F4;
+    padding-top: 30px;
+    position: relative;
+}
+
+.link
+{
+    font-size: 12px;
+    line-height: 16px;
+    color: #2CDDE9;
+}
+
+.title
+{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #00314F;
+    text-align: center;
+}
+
+.description
+{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color:black
+}
+
+.dot
+{
+    margin-left: 30px;
+    width:10px;
+    height:10px;
+    background-color: #C4C4C4;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selected
+{
+    background-color: #2CDDE9;
+}
+
+.dot:first-child
+{
+    margin-left: auto;
+}
+
+.dot:last-child
+{
+    margin-right: auto;
+}
+
+.content
+{
+    padding:10px 20px;
+}
+
+.avatar_container
+{
+    text-align: center;
+}
+
+.avatar_container .avatar
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    cursor: pointer;
+}
+
+.avatar img
+{
+    width: 100%;
+}
+
+.avatar_container h3
+{
+    font-size: 24px;
+    line-height: 33px;
+    color: #00314F;
+}
+
+.avatar_container .userlist
+{
+    background-color: #2CDDE9;
+    padding: 20px 20px 2px 20px;
+}
+
+.userlist li
+{
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 18px;
+}
+
+.sidebarother
+{
+    padding: 20px;
+}
+
+.sidebarcontainer
+{
+    border-top: 1px solid rgba(102, 102, 102, 0.2);
+    padding: 20px 0px;
+}
+
+.sidebarcontainer li
+{
+    margin-bottom: 18px;
+}
+
+.sidebarcontainer li a
+{
+    font-weight: 600;
+    color: #00314F;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.logoutcontainer .logout
+{
+    font-weight: 600;
+    color: #00314F;
+    line-height: 22px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.logoutcontainer .description
+{
+    color: #00314F;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    padding-left: 20px;
+}
+.logoutcontainer
+{
+    position: absolute;
+    bottom: 0px;
+    padding-left: 20px;
+}
